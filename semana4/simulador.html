@@ -1,0 +1,26 @@
+<script>
+function f(x) {
+	if (x == 1){
+		return 10;
+	}
+	if (x == 2){
+		return 8;
+	}
+	if (x == 3){
+		return 6;
+	}
+
+	if(x >= 4) {
+		return 5;
+			
+		}
+}
+
+
+let numero = 3;
+let acumulador = 0;
+while(numero < 6) {
+  acumulador += f(numero++);
+}
+alert(acumulador);
+</script>
